@@ -1,18 +1,11 @@
 {
-  "latestVersion": "1.2",
-  "updates": [
-    {
-      "version": "1.3",
-      "url": "https://raw.githubusercontent.com/ArturAinulov/tbank-helper/main/Обновление Premium.html",
-      "changelog": [
-        "Добавлена система автоматических обновлений",
-        "Улучшен интерфейс редактирования шаблонов", 
-        "Добавлена возможность резервного копирования настроек",
-        "Исправлены мелкие ошибки"
-      ],
-      "critical": false,
-      "releaseDate": "2024-01-15",
-      "minRequiredVersion": "1.0"
-    }
-  ]
+  "version": "1.1",
+  "changelog": [
+    "Добавлена система автоматических обновлений",
+    "Улучшен интерфейс редактирования шаблонов",
+    "Добавлена возможность резервного копирования настроек"
+  ],
+  "critical": false,
+  "releaseDate": "2024-01-15",
+  "minRequiredVersion": "1.0"
 }
