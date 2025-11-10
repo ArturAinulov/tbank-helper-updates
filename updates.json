@@ -2,7 +2,7 @@
   "latestVersion": "1.1",
   "updates": [
     {
-      "version": "1.5",
+      "version": "1.6",
       "url": "https://raw.githubusercontent.com/ArturAinulov/tbank-helper-updates/refs/heads/main/%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20Premium.html",
       "changelog": [
         "Добавлена система автоматических обновлений",
