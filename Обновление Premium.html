@@ -676,7 +676,7 @@
                 <button class="close-btn" id="close-edit-tariff-modal">×</button>
             </div>
             <div class="tariff-input-group">
-                <input type="text" id="tariff-name-input" placeholder="Название тарифа (например: 3.0)">
+                <input type="text" id="tariff-name-input" placeholder="Название тарифа (например: 3.12)">
             </div>
             <div class="tariff-input-group">
                 <input type="text" id="tariff-url-input" placeholder="Ссылка на тариф">
@@ -718,7 +718,7 @@
     <script>
         // Конфигурация приложения
         const APP_CONFIG = {
-            version: "1.2",
+            version: "1.3",
             updateUrl: "https://raw.githubusercontent.com/ArturAinulov/tbank-helper-updates/refs/heads/main/updates.json",
             checkInterval: 24 * 60 * 60 * 1000
         };
@@ -827,7 +827,6 @@
                     tariffItem.innerHTML = `
                         <div class="tariff-item-content">
                             <strong>${tariff.name}</strong><br>
-                            <small>${tariff.url}</small>
                         </div>
                         <div class="tariff-item-controls">
                             <button class="btn btn-small edit-tariff-btn" data-index="${index}">✏️</button>
@@ -1638,3 +1637,4 @@
     </script>
 </body>
 </html>
+
